@@ -1,0 +1,41 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.container {
+  /* color: blue; */
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+
+.links li {
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  margin: 8px;
+  font-size: 20px;
+}
+
+.banner_section {
+  height: 450px;
+  background-image: url("../images/banner_image.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_text{
+   color:aliceblue;
+   font-size: 60px;
+   max-width: fit-content;
+}
