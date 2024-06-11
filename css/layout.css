@@ -1,11 +1,12 @@
-/* * {
-  margin: 0;
-  padding: 0;
-} */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .container {
-  /* color: blue; */
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
 }
 
 .navbar {
@@ -16,7 +17,7 @@
 
 .links li {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
 }
 
 a {
@@ -27,6 +28,9 @@ a {
 
 .banner_section {
   height: 450px;
+  padding: 20px;
+  margin-left: 38px;
+  margin-right: 38px;
   background-image: url("../images/banner_image.jpg");
   background-position: center;
   background-size: cover;
@@ -34,8 +38,117 @@ a {
   justify-content: center;
   align-items: center;
 }
-.banner_text{
-   color:aliceblue;
-   font-size: 60px;
-   max-width: fit-content;
+.banner_text {
+  color: aliceblue;
+  font-size: 60px;
+  max-width: 419px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: honeydew;
+}
+
+.title {
+  color: gray;
+  font-size: 18px;
+}
+
+.card img {
+  height: 150px;
+  width: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile {
+  margin: 24px 0;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: aliceblue;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  color: #fff;
+  background-color: darkblue;
+}
+
+.footer_section {
+  flex: 1;
+  margin: 20px;
+}
+
+.logo_section {
+  flex: 2;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.footer_section h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer_section p {
+  font-size: 0.9em;
+  color: #999;
+}
+
+.footer_section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer_section li {
+  margin-bottom: 10px;
+}
+
+.footer_section a {
+  color: #999;
+  text-decoration: none;
+}
+
+.b-footer {
+  width: 100%;
+  text-align: center;
+  color: #999;
+  padding-top: 50px;
+  border-top: 1px solid #999;
 }
